@@ -1,0 +1,984 @@
+digraph propNet
+{
+	( true ( cell 3 6 red ) )
+	AND
+	( does red ( drop 5 ) )
+	AND
+	( columnEmpty 1 )
+	( true ( cell 7 4 black ) )
+	AND
+	TRANSITION
+	AND
+	AND
+	( true ( control black ) )
+	AND
+	( true ( cell 2 2 black ) )
+	TRANSITION
+	OR
+	( cellOpen 3 5 )
+	OR
+	AND
+	AND
+	( true ( cell 8 3 black ) )
+	OR
+	AND
+	AND
+	OR
+	( columnEmpty 4 )
+	TRANSITION
+	( columnEmpty 5 )
+	NOT
+	AND
+	NOT
+	AND
+	OR
+	anon
+	AND
+	TRANSITION
+	anon
+	( cellOpen 7 5 )
+	OR
+	NOT
+	AND
+	OR
+	NOT
+	AND
+	anon
+	( true ( cell 1 3 black ) )
+	OR
+	anon
+	anon
+	( true ( cell 5 5 black ) )
+	anon
+	anon
+	NOT
+	AND
+	anon
+	( cellOpen 6 4 )
+	NOT
+	AND
+	( cellOpen 2 2 )
+	TRANSITION
+	AND
+	TRANSITION
+	NOT
+	TRANSITION
+	AND
+	anon
+	TRANSITION
+	OR
+	AND
+	AND
+	AND
+	( true ( cell 8 1 black ) )
+	OR
+	( cellOpen 4 3 )
+	( columnEmpty 8 )
+	OR
+	AND
+	anon
+	OR
+	AND
+	anon
+	AND
+	TRANSITION
+	NOT
+	NOT
+	TRANSITION
+	NOT
+	AND
+	AND
+	( true ( cell 8 6 red ) )
+	( true ( cell 3 5 black ) )
+	TRANSITION
+	AND
+	( true ( cell 4 3 black ) )
+	AND
+	AND
+	NOT
+	AND
+	TRANSITION
+	AND
+	( true ( cell 7 5 black ) )
+	( true ( cell 3 5 red ) )
+	( cellOpen 4 4 )
+	NOT
+	AND
+	TRANSITION
+	AND
+	AND
+	AND
+	( true ( cell 8 3 red ) )
+	anon
+	( true ( cell 8 5 red ) )
+	NOT
+	( true ( cell 3 1 black ) )
+	( cellOpen 5 4 )
+	NOT
+	NOT
+	NOT
+	NOT
+	AND
+	AND
+	AND
+	NOT
+	( does black noop )
+	( does red ( drop 4 ) )
+	NOT
+	NOT
+	( true ( cell 7 3 red ) )
+	OR
+	anon
+	( cellOpen 5 5 )
+	AND
+	( true ( cell 5 1 red ) )
+	NOT
+	NOT
+	NOT
+	anon
+	OR
+	AND
+	OR
+	AND
+	NOT
+	AND
+	NOT
+	AND
+	TRANSITION
+	AND
+	anon
+	anon
+	AND
+	NOT
+	( cellOpen 7 4 )
+	OR
+	( goal red 50 )
+	TRANSITION
+	( does black ( drop 2 ) )
+	TRANSITION
+	OR
+	( true ( cell 8 5 black ) )
+	AND
+	NOT
+	TRANSITION
+	NOT
+	( cellOpen 1 2 )
+	AND
+	anon
+	OR
+	anon
+	( true ( cell 2 6 black ) )
+	NOT
+	AND
+	( legal red ( drop 1 ) )
+	OR
+	TRANSITION
+	AND
+	anon
+	( columnOpen 6 )
+	TRANSITION
+	anon
+	NOT
+	AND
+	AND
+	AND
+	AND
+	TRANSITION
+	( true ( cell 1 4 red ) )
+	AND
+	AND
+	NOT
+	( true ( cell 4 3 red ) )
+	AND
+	( true ( cell 6 6 black ) )
+	( does red ( drop 8 ) )
+	AND
+	( cellOpen 5 1 )
+	AND
+	AND
+	NOT
+	AND
+	AND
+	boardOpen
+	AND
+	AND
+	AND
+	AND
+	OR
+	anon
+	anon
+	anon
+	AND
+	( goal red 100 )
+	NOT
+	AND
+	NOT
+	TRANSITION
+	TRANSITION
+	( true ( cell 3 3 black ) )
+	AND
+	NOT
+	AND
+	NOT
+	AND
+	AND
+	AND
+	anon
+	NOT
+	OR
+	OR
+	( line black )
+	NOT
+	AND
+	AND
+	( true ( cell 2 4 red ) )
+	AND
+	anon
+	AND
+	( line red )
+	( true ( cell 8 4 red ) )
+	OR
+	NOT
+	anon
+	( does red noop )
+	AND
+	( cellOpen 5 6 )
+	OR
+	OR
+	AND
+	TRANSITION
+	AND
+	AND
+	init
+	OR
+	AND
+	( cellOpen 6 2 )
+	AND
+	AND
+	NOT
+	OR
+	AND
+	AND
+	AND
+	anon
+	AND
+	( cellOpen 7 2 )
+	AND
+	AND
+	AND
+	NOT
+	AND
+	NOT
+	AND
+	AND
+	( goal red 0 )
+	( true ( cell 8 1 red ) )
+	AND
+	anon
+	NOT
+	anon
+	( true ( cell 7 2 red ) )
+	AND
+	TRANSITION
+	( true ( cell 2 3 red ) )
+	( cellOpen 5 2 )
+	anon
+	TRANSITION
+	NOT
+	AND
+	NOT
+	OR
+	NOT
+	AND
+	( true ( cell 4 5 red ) )
+	AND
+	( true ( cell 3 2 black ) )
+	( true ( cell 2 1 red ) )
+	( true ( cell 7 3 black ) )
+	( true ( cell 2 4 black ) )
+	( columnEmpty 7 )
+	NOT
+	AND
+	( true ( cell 5 1 black ) )
+	AND
+	AND
+	OR
+	AND
+	NOT
+	TRANSITION
+	( true ( cell 4 1 black ) )
+	AND
+	( columnEmpty 2 )
+	AND
+	NOT
+	NOT
+	NOT
+	anon
+	( cellOpen 2 3 )
+	OR
+	AND
+	OR
+	OR
+	( true ( cell 6 1 black ) )
+	OR
+	AND
+	AND
+	NOT
+	OR
+	NOT
+	( true ( cell 7 6 black ) )
+	anon
+	OR
+	AND
+	anon
+	AND
+	OR
+	OR
+	anon
+	( cellOpen 5 3 )
+	NOT
+	AND
+	AND
+	( true ( cell 5 2 red ) )
+	( true ( cell 6 5 red ) )
+	anon
+	NOT
+	( legal black ( drop 8 ) )
+	AND
+	TRANSITION
+	AND
+	NOT
+	NOT
+	AND
+	( columnOpen 1 )
+	AND
+	AND
+	( true ( cell 7 6 red ) )
+	OR
+	AND
+	AND
+	NOT
+	TRANSITION
+	OR
+	AND
+	( true ( cell 5 5 red ) )
+	TRANSITION
+	( legal red ( drop 4 ) )
+	AND
+	AND
+	TRANSITION
+	AND
+	( legal red ( drop 5 ) )
+	anon
+	AND
+	( cellOpen 3 2 )
+	NOT
+	AND
+	OR
+	anon
+	OR
+	AND
+	OR
+	( cellOpen 6 1 )
+	TRANSITION
+	NOT
+	TRANSITION
+	anon
+	TRANSITION
+	AND
+	TRANSITION
+	AND
+	AND
+	OR
+	TRANSITION
+	OR
+	AND
+	AND
+	TRANSITION
+	( init ( control red ) )
+	AND
+	( true ( cell 4 6 black ) )
+	NOT
+	( true ( cell 6 3 red ) )
+	NOT
+	AND
+	NOT
+	AND
+	AND
+	( cellOpen 2 6 )
+	NOT
+	( true ( cell 7 1 black ) )
+	NOT
+	( true ( cell 5 3 red ) )
+	AND
+	AND
+	( true ( cell 5 4 red ) )
+	( cellOpen 6 6 )
+	anon
+	OR
+	TRANSITION
+	TRANSITION
+	AND
+	AND
+	AND
+	( cellOpen 3 4 )
+	( true ( cell 7 4 red ) )
+	AND
+	NOT
+	NOT
+	( true ( cell 3 4 black ) )
+	AND
+	( true ( cell 1 2 black ) )
+	AND
+	NOT
+	AND
+	anon
+	NOT
+	( true ( cell 5 6 red ) )
+	( columnOpen 4 )
+	NOT
+	anon
+	AND
+	OR
+	( true ( cell 8 2 black ) )
+	NOT
+	AND
+	( true ( cell 2 5 red ) )
+	TRANSITION
+	AND
+	NOT
+	anon
+	NOT
+	AND
+	NOT
+	NOT
+	OR
+	NOT
+	AND
+	OR
+	( legal black noop )
+	NOT
+	NOT
+	AND
+	( columnOpen 8 )
+	AND
+	NOT
+	NOT
+	anon
+	AND
+	OR
+	NOT
+	TRANSITION
+	AND
+	( true ( cell 1 2 red ) )
+	AND
+	( true ( cell 3 6 black ) )
+	anon
+	NOT
+	NOT
+	AND
+	AND
+	TRANSITION
+	AND
+	( does red ( drop 1 ) )
+	AND
+	AND
+	( does black ( drop 8 ) )
+	( does black ( drop 5 ) )
+	( cellOpen 8 1 )
+	( cellOpen 6 3 )
+	anon
+	AND
+	AND
+	( does black ( drop 6 ) )
+	OR
+	AND
+	AND
+	OR
+	( true ( cell 5 3 black ) )
+	anon
+	( true ( cell 7 5 red ) )
+	NOT
+	( columnOpen 3 )
+	AND
+	anon
+	AND
+	TRANSITION
+	TRANSITION
+	AND
+	AND
+	AND
+	AND
+	AND
+	anon
+	OR
+	AND
+	anon
+	AND
+	OR
+	TRANSITION
+	OR
+	TRANSITION
+	AND
+	TRANSITION
+	( cellOpen 1 6 )
+	AND
+	( true ( cell 4 4 black ) )
+	OR
+	anon
+	NOT
+	( cellOpen 8 6 )
+	NOT
+	( cellOpen 8 2 )
+	NOT
+	NOT
+	AND
+	OR
+	TRANSITION
+	AND
+	AND
+	( legal black ( drop 2 ) )
+	( does red ( drop 3 ) )
+	( columnEmpty 3 )
+	anon
+	NOT
+	AND
+	TRANSITION
+	AND
+	OR
+	anon
+	AND
+	AND
+	OR
+	OR
+	AND
+	( true ( cell 8 4 black ) )
+	( true ( cell 3 3 red ) )
+	( true ( cell 1 3 red ) )
+	TRANSITION
+	AND
+	TRANSITION
+	AND
+	AND
+	( cellOpen 8 5 )
+	TRANSITION
+	anon
+	TRANSITION
+	AND
+	TRANSITION
+	( true ( cell 6 4 red ) )
+	AND
+	AND
+	( true ( cell 4 1 red ) )
+	NOT
+	AND
+	OR
+	NOT
+	anon
+	AND
+	( cellOpen 6 5 )
+	AND
+	AND
+	NOT
+	OR
+	AND
+	TRANSITION
+	( true ( cell 6 3 black ) )
+	( true ( control red ) )
+	AND
+	AND
+	NOT
+	OR
+	anon
+	AND
+	TRANSITION
+	NOT
+	TRANSITION
+	AND
+	OR
+	AND
+	anon
+	anon
+	AND
+	AND
+	OR
+	AND
+	AND
+	AND
+	( legal red ( drop 8 ) )
+	NOT
+	OR
+	anon
+	AND
+	OR
+	TRANSITION
+	( cellOpen 1 3 )
+	( true ( cell 1 6 black ) )
+	AND
+	NOT
+	NOT
+	AND
+	( legal red ( drop 7 ) )
+	( legal black ( drop 7 ) )
+	AND
+	NOT
+	anon
+	TRANSITION
+	TRANSITION
+	anon
+	NOT
+	OR
+	( goal black 0 )
+	( true ( cell 1 1 red ) )
+	TRANSITION
+	anon
+	anon
+	OR
+	AND
+	( true ( cell 4 4 red ) )
+	AND
+	AND
+	( cellOpen 8 3 )
+	anon
+	AND
+	AND
+	AND
+	( does black ( drop 3 ) )
+	( legal black ( drop 6 ) )
+	AND
+	AND
+	( legal red ( drop 6 ) )
+	OR
+	( true ( cell 4 2 black ) )
+	NOT
+	( true ( cell 7 1 red ) )
+	AND
+	AND
+	AND
+	AND
+	TRANSITION
+	AND
+	AND
+	anon
+	TRANSITION
+	anon
+	anon
+	anon
+	NOT
+	anon
+	AND
+	NOT
+	( columnOpen 2 )
+	anon
+	NOT
+	AND
+	AND
+	( true ( cell 5 4 black ) )
+	( legal red ( drop 3 ) )
+	TRANSITION
+	AND
+	AND
+	AND
+	AND
+	NOT
+	NOT
+	TRANSITION
+	TRANSITION
+	AND
+	NOT
+	OR
+	AND
+	( goal black 100 )
+	TRANSITION
+	( true ( cell 3 4 red ) )
+	terminal
+	TRANSITION
+	TRANSITION
+	AND
+	NOT
+	AND
+	AND
+	OR
+	OR
+	( true ( cell 6 4 black ) )
+	AND
+	OR
+	anon
+	( cellOpen 4 1 )
+	AND
+	AND
+	anon
+	AND
+	( true ( cell 2 1 black ) )
+	AND
+	( true ( cell 1 5 red ) )
+	AND
+	OR
+	anon
+	OR
+	( goal black 50 )
+	( cellOpen 2 1 )
+	( does red ( drop 2 ) )
+	OR
+	AND
+	OR
+	AND
+	OR
+	AND
+	NOT
+	TRANSITION
+	anon
+	( true ( cell 4 6 red ) )
+	( true ( cell 3 1 red ) )
+	AND
+	anon
+	TRANSITION
+	AND
+	AND
+	TRANSITION
+	AND
+	AND
+	TRANSITION
+	( cellOpen 1 4 )
+	OR
+	anon
+	anon
+	OR
+	NOT
+	AND
+	AND
+	AND
+	TRANSITION
+	TRANSITION
+	anon
+	AND
+	AND
+	AND
+	NOT
+	OR
+	( cellOpen 4 6 )
+	TRANSITION
+	AND
+	AND
+	NOT
+	( true ( cell 1 1 black ) )
+	TRANSITION
+	AND
+	( cellOpen 2 5 )
+	anon
+	OR
+	( cellOpen 4 5 )
+	anon
+	OR
+	AND
+	NOT
+	( legal black ( drop 3 ) )
+	( cellOpen 7 6 )
+	OR
+	AND
+	NOT
+	TRUE
+	OR
+	AND
+	OR
+	OR
+	AND
+	AND
+	AND
+	TRANSITION
+	NOT
+	anon
+	( true ( cell 1 4 black ) )
+	anon
+	( true ( cell 5 6 black ) )
+	anon
+	NOT
+	AND
+	anon
+	OR
+	NOT
+	anon
+	TRANSITION
+	AND
+	TRANSITION
+	NOT
+	AND
+	AND
+	AND
+	anon
+	AND
+	AND
+	TRANSITION
+	( true ( cell 2 6 red ) )
+	NOT
+	TRANSITION
+	anon
+	( columnOpen 7 )
+	anon
+	NOT
+	AND
+	( cellOpen 7 3 )
+	AND
+	( true ( cell 2 2 red ) )
+	NOT
+	TRANSITION
+	( cellOpen 4 2 )
+	AND
+	AND
+	AND
+	AND
+	NOT
+	AND
+	AND
+	OR
+	anon
+	OR
+	AND
+	OR
+	TRANSITION
+	TRANSITION
+	AND
+	NOT
+	anon
+	NOT
+	( true ( cell 6 2 red ) )
+	( true ( cell 6 2 black ) )
+	TRANSITION
+	AND
+	AND
+	( true ( cell 2 3 black ) )
+	TRANSITION
+	NOT
+	NOT
+	AND
+	AND
+	TRANSITION
+	AND
+	AND
+	NOT
+	( true ( cell 7 2 black ) )
+	AND
+	AND
+	AND
+	AND
+	( does black ( drop 1 ) )
+	TRANSITION
+	AND
+	AND
+	AND
+	NOT
+	AND
+	TRANSITION
+	AND
+	AND
+	TRANSITION
+	NOT
+	OR
+	NOT
+	OR
+	( cellOpen 3 6 )
+	AND
+	AND
+	AND
+	( cellOpen 3 1 )
+	AND
+	( true ( cell 8 6 black ) )
+	OR
+	anon
+	OR
+	( true ( cell 1 5 black ) )
+	AND
+	TRANSITION
+	( true ( cell 4 5 black ) )
+	AND
+	OR
+	anon
+	AND
+	( does red ( drop 6 ) )
+	AND
+	TRANSITION
+	AND
+	anon
+	AND
+	AND
+	anon
+	( cellOpen 3 3 )
+	AND
+	AND
+	( true ( cell 8 2 red ) )
+	( does black ( drop 7 ) )
+	AND
+	( cellOpen 7 1 )
+	AND
+	OR
+	( legal black ( drop 4 ) )
+	AND
+	NOT
+	AND
+	( cellOpen 8 4 )
+	OR
+	( does black ( drop 4 ) )
+	( does red ( drop 7 ) )
+	anon
+	TRANSITION
+	( cellOpen 2 4 )
+	AND
+	( true ( cell 6 6 red ) )
+	AND
+	AND
+	AND
+	OR
+	AND
+	AND
+	AND
+	NOT
+	OR
+	NOT
+	anon
+	AND
+	anon
+	( true ( cell 5 2 black ) )
+	( legal red noop )
+	( true ( cell 4 2 red ) )
+	AND
+	OR
+	NOT
+	AND
+	NOT
+	NOT
+	( columnOpen 5 )
+	TRANSITION
+	AND
+	NOT
+	( true ( cell 6 1 red ) )
+	( legal black ( drop 5 ) )
+	NOT
+	AND
+	NOT
+	NOT
+	AND
+	( columnEmpty 6 )
+	( true ( cell 2 5 black ) )
+	( legal red ( drop 2 ) )
+	( cellOpen 1 5 )
+	anon
+	( legal black ( drop 1 ) )
+	( cellOpen 1 1 )
+	TRANSITION
+	AND
+	TRANSITION
+	AND
+	anon
+	OR
+	TRANSITION
+	AND
+	( true ( cell 6 5 black ) )
+	TRANSITION
+	AND
+	AND
+	( true ( cell 1 6 red ) )
+	( true ( cell 3 2 red ) )
+	AND
+	OR
+	AND
+}
